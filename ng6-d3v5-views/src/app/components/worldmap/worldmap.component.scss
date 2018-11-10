@@ -1,0 +1,67 @@
+
+svg{
+  /* background: #f2f2f2cf; */
+  /* background: #77747426; */
+  /* border: 2px solid black; */
+}
+.graticule {
+  fill: none;
+  stroke: #777;
+  stroke-width: .5px;
+  stroke-opacity: .5;
+}
+
+.country{
+   fill:rgb(116, 188, 197);
+  /* fill:rgb(89, 197, 211); */
+  /* stroke:#333333; */
+  stroke:#ffffff;
+  stroke-width: 1.8;
+}
+
+.selected{
+  fill: #005073;
+}
+
+.city-label{
+  font-size: 10px;
+  fill: #404040;
+}
+
+#map {
+  position: absolute;
+	background: #fff;
+	background: -webkit-linear-gradient(top, #fff, #ccc, #fff);
+	font-family: Verdana, sans-serif;
+	font-size: 10pt;
+	padding: 3pt;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border: thin solid #aaa;
+	border-radius: 6px;
+	-webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+
+#map.hidden {
+	display: none;
+}
+
+.tooltip {
+  font: 200 60px/500px "Helvetica Neue";
+  text-align: center;
+  width: 10px;
+  height: 10px;
+  margin: 0;
+  color: #404040;
+  opacity: 0;
+  
+}
+
+  
+  image {
+    width:25px;
+    height:20px;
+  }

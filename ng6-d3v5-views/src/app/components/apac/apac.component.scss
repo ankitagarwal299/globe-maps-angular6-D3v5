@@ -1,0 +1,129 @@
+svg{
+  float: right;
+}
+
+.states {
+	fill: #00bceb;
+  stroke:#ffffff;
+  stroke-width: 1.5;
+}
+
+/* #current {
+  position: relative;
+  color: white;
+  font-family: sans-serif;
+} */
+
+
+#current {
+  position: absolute;
+  color: white;
+  font-family: sans-serif;
+}
+
+.legend{
+  background-color: #ffffff;
+  /* height: 55px; */
+  width: 200px;
+  position: fixed;
+  padding-top: 69px;
+  margin-top: 33px;
+}
+
+.key-dot {
+  display: inline-block;
+  height: 10px;
+  margin-right: .5em;
+  width: 10px;
+}
+
+.queens { background: #C2E05D;}
+.kings { background: #eee9e9;}
+
+.country-name{
+  margin-top: 3%;
+  float: left;
+  margin-right: 1%;
+}
+
+#countryheading {
+  color: white;
+  float: right;
+  margin-right: 2%;
+}
+
+.city-label{
+  font-size: 15px;
+}
+
+image {
+  width:39px;
+  height:20px;
+}
+img{
+ 
+  float : left;
+}
+
+
+
+.legend2{
+  margin-top: 15%;
+}
+.legend3{
+  margin-top: 35%;
+   
+}
+
+/* https://scotch.io/tutorials/customize-the-browsers-scrollbar-with-css */
+.scrollbar{
+  
+    height: 87px;
+    width: 180px;
+   
+    overflow-y: scroll;
+  
+  
+}
+
+.force-overflow{
+  // min-height: 400px;
+}
+
+#style-11::-webkit-scrollbar {
+	width: 10px;
+	background-color: #F5F5F5;
+}
+/**  STYLE 11 */
+#style-11::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: rgba(0,0,0,0.1);
+  border: 1px solid #ccc;
+}
+
+#style-11::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: linear-gradient(left, #fff, #e4e4e4);
+  border: 1px solid #aaa;
+}
+
+#style-11::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+
+#style-11::-webkit-scrollbar-thumb:active {
+  background: linear-gradient(left, #22ADD4, #1E98BA);
+}
+
+.coutrynamesstylings{
+  text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 7%;
+}
+.scrollbar img{
+  
+     width: 20%;
+    // width: 13%;
+    margin-right: 8%;
+}

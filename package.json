@@ -1,0 +1,21 @@
+{
+  "name": "scedi",
+  "version": "1.0.0",
+  "description": "SCEDI (Supply Chain Extranet Digital Inventory)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "Ankit AGarwal",
+  "license": "ISC"
+}

@@ -1,0 +1,24 @@
+/* Make the chart container fill the page using CSS. */
+#chart {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 3%;
+  bottom: 1%;
+}
+
+#globe {
+  cursor: move;  
+}
+
+#countryheading {
+  position: relative;
+  color: white;
+  
+}
+
+#totalSites {
+  position: relative;
+  color: white;
+  
+}

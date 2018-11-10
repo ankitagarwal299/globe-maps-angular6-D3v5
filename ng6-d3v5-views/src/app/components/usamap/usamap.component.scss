@@ -1,0 +1,62 @@
+svg{
+  /* background: #f2f2f2cf; */
+  /* border: 2px solid black; */
+}
+
+.states {
+  /* fill:#00bceb98;
+  stroke:#333333;
+  stroke-width: 1.5; */
+	/* fill:#31bdcf; */
+	fill: #00bceb;
+  stroke:#ffffff;
+  stroke-width: 1.5;
+}
+
+.cities {
+	fill: red;
+	opacity:0.7;
+}
+
+.selected{
+  fill: #005073;
+}
+
+image {
+  width:25px;
+  height:20px;
+}
+
+#map {
+  position: absolute;
+	background: #fff;
+	background: -webkit-linear-gradient(top, #fff, #ccc, #fff);
+	font-family: Verdana, sans-serif;
+	font-size: 10pt;
+	padding: 3pt;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border: thin solid #aaa;
+	border-radius: 6px;
+	-webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+
+#map.hidden {
+	display: none;
+}
+
+.tooltip {
+	font-size: 20px;
+	font-stretch: expanded;
+	font-weight: 900;
+	text-align: center;
+  width: 10px;
+  height: 10px;
+  margin: 0;
+  color: #404040;
+  opacity: 0;
+  
+}
