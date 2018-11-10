@@ -44,7 +44,7 @@ export class GlobeContinentsComponent implements OnInit {
   colorWater = "#fff";
   colorLandClipAngle180 = "#005073";
   colorLandClipAngle90 = "#00bceb";
-  //colorLandClipAngle90ContinentsWithoutCisco = "#00bceb";
+  //colorLandClipAngle90ContinentsWithout = "#00bceb";
   colorGraticule = "#ccc";
   // colorLandClipAngle90 = "linear-gradient(to right,#40E0D0, #2a52be)";
   colorCountry = "#005073";
@@ -233,7 +233,7 @@ export class GlobeContinentsComponent implements OnInit {
 
       //fill(countries,"#005073");
 
-      //Add Cisco factory markers
+      //Add Population  markers
       for (var j = 0; j < points.length; j++) {
         //fill(points[j], this.colorMarker);//dots on map
         fillText(points[j], this.colorMarker);//Hiding Country Lables
