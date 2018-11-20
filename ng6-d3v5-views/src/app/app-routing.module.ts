@@ -12,12 +12,13 @@ import { GlobeContinentsComponent } from './components/globe-continents/globe-co
 
 
 const routes: Routes = [
+  { path: '',component: GlobeContinentsComponent},
   { 'path': 'world', component: WorldmapComponent },
   { 'path': 'usa', component: UsamapComponent },
   { 'path': 'emea', component: EMEAComponent },
   { 'path': 'apac', component: APACComponent },
   { 'path': 'americaContinent', component: AmericaContinentComponent },
-  { 'path': 'globecontinent', component: GlobeContinentsComponent },
+  // { 'path': 'globecontinent', component: GlobeContinentsComponent },
 
 ];
 
